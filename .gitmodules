@@ -1,3 +1,6 @@
 [submodule "Externals/mogenerator"]
 	path = Externals/mogenerator
 	url = https://github.com/rentzsch/mogenerator.git
+[submodule "Externals/cedar"]
+	path = Externals/cedar
+	url = https://github.com/pivotal/cedar.git
