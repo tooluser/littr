@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:littr.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Externals/cedar/Cedar.xcodeproj">
+   </FileRef>
+   <Group
+      location = "container:"
+      name = "PivotalCoreKit">
+      <FileRef
+         location = "group:Externals/PivotalCoreKit/Foundation/Foundation.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:Externals/PivotalCoreKit/CoreLocation/CoreLocation.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:Externals/PivotalCoreKit/UIKit/UIKit.xcodeproj">
+      </FileRef>
+   </Group>
+</Workspace>
