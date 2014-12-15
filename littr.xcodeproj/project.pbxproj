@@ -6,7 +6,25 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		42D740991A3F9280007AB883 /* mogenerator */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 42D7409A1A3F9280007AB883 /* Build configuration list for PBXAggregateTarget "mogenerator" */;
+			buildPhases = (
+				42D7409D1A3F9287007AB883 /* Run Mogenerator */,
+			);
+			dependencies = (
+			);
+			name = mogenerator;
+			productName = mogenerator;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
+		42D740941A3F91EA007AB883 /* _Haul.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D7408D1A3F91EA007AB883 /* _Haul.m */; };
+		42D740951A3F91EA007AB883 /* _Tag.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D7408F1A3F91EA007AB883 /* _Tag.m */; };
+		42D740961A3F91EA007AB883 /* Haul.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D740911A3F91EA007AB883 /* Haul.m */; };
+		42D740971A3F91EA007AB883 /* Tag.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D740931A3F91EA007AB883 /* Tag.m */; };
 		42EAE9711A3F6CFC0036DBAE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 42EAE9701A3F6CFC0036DBAE /* main.m */; };
 		42EAE9741A3F6CFC0036DBAE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 42EAE9731A3F6CFC0036DBAE /* AppDelegate.m */; };
 		42EAE9771A3F6CFC0036DBAE /* littr.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 42EAE9751A3F6CFC0036DBAE /* littr.xcdatamodeld */; };
@@ -16,6 +34,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		42D7408C1A3F91EA007AB883 /* _Haul.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = _Haul.h; path = Domain/Model/_Haul.h; sourceTree = "<group>"; };
+		42D7408D1A3F91EA007AB883 /* _Haul.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = _Haul.m; path = Domain/Model/_Haul.m; sourceTree = "<group>"; };
+		42D7408E1A3F91EA007AB883 /* _Tag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = _Tag.h; path = Domain/Model/_Tag.h; sourceTree = "<group>"; };
+		42D7408F1A3F91EA007AB883 /* _Tag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = _Tag.m; path = Domain/Model/_Tag.m; sourceTree = "<group>"; };
+		42D740901A3F91EA007AB883 /* Haul.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Haul.h; path = Domain/Model/Haul.h; sourceTree = "<group>"; };
+		42D740911A3F91EA007AB883 /* Haul.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Haul.m; path = Domain/Model/Haul.m; sourceTree = "<group>"; };
+		42D740921A3F91EA007AB883 /* Tag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Tag.h; path = Domain/Model/Tag.h; sourceTree = "<group>"; };
+		42D740931A3F91EA007AB883 /* Tag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Tag.m; path = Domain/Model/Tag.m; sourceTree = "<group>"; };
 		42EAE96B1A3F6CFC0036DBAE /* littr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = littr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42EAE96F1A3F6CFC0036DBAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		42EAE9701A3F6CFC0036DBAE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -39,6 +65,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		42D740981A3F91F7007AB883 /* Machine */ = {
+			isa = PBXGroup;
+			children = (
+				42D7408C1A3F91EA007AB883 /* _Haul.h */,
+				42D7408D1A3F91EA007AB883 /* _Haul.m */,
+				42D7408E1A3F91EA007AB883 /* _Tag.h */,
+				42D7408F1A3F91EA007AB883 /* _Tag.m */,
+			);
+			name = Machine;
+			sourceTree = "<group>";
+		};
 		42EAE9621A3F6CFC0036DBAE = {
 			isa = PBXGroup;
 			children = (
@@ -140,6 +177,11 @@
 		42EAE99E1A3F6F900036DBAE /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				42D740981A3F91F7007AB883 /* Machine */,
+				42D740901A3F91EA007AB883 /* Haul.h */,
+				42D740911A3F91EA007AB883 /* Haul.m */,
+				42D740921A3F91EA007AB883 /* Tag.h */,
+				42D740931A3F91EA007AB883 /* Tag.m */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -180,6 +222,9 @@
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = Nowhereville;
 				TargetAttributes = {
+					42D740991A3F9280007AB883 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
 					42EAE96A1A3F6CFC0036DBAE = {
 						CreatedOnToolsVersion = 6.1.1;
 					};
@@ -199,6 +244,7 @@
 			projectRoot = "";
 			targets = (
 				42EAE96A1A3F6CFC0036DBAE /* littr */,
+				42D740991A3F9280007AB883 /* mogenerator */,
 			);
 		};
 /* End PBXProject section */
@@ -215,12 +261,33 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		42D7409D1A3F9287007AB883 /* Run Mogenerator */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Mogenerator";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "mogenerator --v2 -m App/littr.xcdatamodeld -O App/Domain/Model/";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		42EAE9671A3F6CFC0036DBAE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42D740941A3F91EA007AB883 /* _Haul.m in Sources */,
 				42EAE9771A3F6CFC0036DBAE /* littr.xcdatamodeld in Sources */,
+				42D740961A3F91EA007AB883 /* Haul.m in Sources */,
+				42D740951A3F91EA007AB883 /* _Tag.m in Sources */,
+				42D740971A3F91EA007AB883 /* Tag.m in Sources */,
 				42EAE9741A3F6CFC0036DBAE /* AppDelegate.m in Sources */,
 				42EAE97A1A3F6CFC0036DBAE /* ViewController.m in Sources */,
 				42EAE9711A3F6CFC0036DBAE /* main.m in Sources */,
@@ -241,6 +308,20 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		42D7409B1A3F9280007AB883 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		42D7409C1A3F9280007AB883 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		42EAE98F1A3F6CFC0036DBAE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -340,6 +421,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		42D7409A1A3F9280007AB883 /* Build configuration list for PBXAggregateTarget "mogenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42D7409B1A3F9280007AB883 /* Debug */,
+				42D7409C1A3F9280007AB883 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		42EAE9661A3F6CFC0036DBAE /* Build configuration list for PBXProject "littr" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
