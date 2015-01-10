@@ -21,12 +21,20 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		420158651A60A6B900FE3D85 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 420158641A60A6B900FE3D85 /* XCTest.framework */; };
+		420158671A60A6B900FE3D85 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 420158661A60A6B900FE3D85 /* CoreGraphics.framework */; };
+		420158691A60A6B900FE3D85 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 420158681A60A6B900FE3D85 /* UIKit.framework */; };
+		4201586B1A60A6B900FE3D85 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4201586A1A60A6B900FE3D85 /* Foundation.framework */; };
+		420158701A60A6B900FE3D85 /* littrModelSpecs-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4201586F1A60A6B900FE3D85 /* littrModelSpecs-Info.plist */; };
+		4201587C1A60A74F00FE3D85 /* libCedar-StaticLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4201587B1A60A74F00FE3D85 /* libCedar-StaticLib.a */; };
+		420158801A60A78E00FE3D85 /* DumpstrInterfaceSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4201587F1A60A78E00FE3D85 /* DumpstrInterfaceSpec.mm */; };
 		42D740941A3F91EA007AB883 /* _Haul.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D7408D1A3F91EA007AB883 /* _Haul.m */; };
 		42D740951A3F91EA007AB883 /* _Tag.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D7408F1A3F91EA007AB883 /* _Tag.m */; };
 		42D740961A3F91EA007AB883 /* Haul.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D740911A3F91EA007AB883 /* Haul.m */; };
 		42D740971A3F91EA007AB883 /* Tag.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D740931A3F91EA007AB883 /* Tag.m */; };
 		42D741401A3F9890007AB883 /* libFoundation+PivotalCore-StaticLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 42D7413E1A3F9890007AB883 /* libFoundation+PivotalCore-StaticLib.a */; };
 		42D741411A3F9890007AB883 /* libUIKit+PivotalCore-StaticLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 42D7413F1A3F9890007AB883 /* libUIKit+PivotalCore-StaticLib.a */; };
+		42DF5EFD1A582FAB00E5D42A /* DumpstrInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = 42DF5EFC1A582FAB00E5D42A /* DumpstrInterface.m */; };
 		42EAE9711A3F6CFC0036DBAE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 42EAE9701A3F6CFC0036DBAE /* main.m */; };
 		42EAE9741A3F6CFC0036DBAE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 42EAE9731A3F6CFC0036DBAE /* AppDelegate.m */; };
 		42EAE9771A3F6CFC0036DBAE /* littr.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 42EAE9751A3F6CFC0036DBAE /* littr.xcdatamodeld */; };
@@ -35,7 +43,27 @@
 		42EAE9821A3F6CFC0036DBAE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42EAE9801A3F6CFC0036DBAE /* LaunchScreen.xib */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		420158761A60A6BA00FE3D85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42EAE9631A3F6CFC0036DBAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42EAE96A1A3F6CFC0036DBAE;
+			remoteInfo = littr;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		420158631A60A6B900FE3D85 /* littrModelSpecs.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = littrModelSpecs.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		420158641A60A6B900FE3D85 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		420158661A60A6B900FE3D85 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = /System/Library/Frameworks/CoreGraphics.framework; sourceTree = "<absolute>"; };
+		420158681A60A6B900FE3D85 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		4201586A1A60A6B900FE3D85 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		4201586E1A60A6B900FE3D85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4201586F1A60A6B900FE3D85 /* littrModelSpecs-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "littrModelSpecs-Info.plist"; sourceTree = "<group>"; };
+		420158731A60A6B900FE3D85 /* Rakefile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Rakefile; sourceTree = "<group>"; };
+		4201587B1A60A74F00FE3D85 /* libCedar-StaticLib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libCedar-StaticLib.a"; path = "Externals/cedar/build/Debug-iphoneos/libCedar-StaticLib.a"; sourceTree = "<group>"; };
+		4201587F1A60A78E00FE3D85 /* DumpstrInterfaceSpec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = DumpstrInterfaceSpec.mm; path = Domain/Interfaces/DumpstrInterfaceSpec.mm; sourceTree = "<group>"; };
 		42D7408C1A3F91EA007AB883 /* _Haul.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = _Haul.h; path = Domain/Model/_Haul.h; sourceTree = "<group>"; };
 		42D7408D1A3F91EA007AB883 /* _Haul.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = _Haul.m; path = Domain/Model/_Haul.m; sourceTree = "<group>"; };
 		42D7408E1A3F91EA007AB883 /* _Tag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = _Tag.h; path = Domain/Model/_Tag.h; sourceTree = "<group>"; };
@@ -46,6 +74,8 @@
 		42D740931A3F91EA007AB883 /* Tag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Tag.m; path = Domain/Model/Tag.m; sourceTree = "<group>"; };
 		42D7413E1A3F9890007AB883 /* libFoundation+PivotalCore-StaticLib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libFoundation+PivotalCore-StaticLib.a"; path = "Externals/PivotalCoreKit/Foundation/build/Debug-iphoneos/libFoundation+PivotalCore-StaticLib.a"; sourceTree = "<group>"; };
 		42D7413F1A3F9890007AB883 /* libUIKit+PivotalCore-StaticLib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libUIKit+PivotalCore-StaticLib.a"; path = "Externals/PivotalCoreKit/UIKit/build/Debug-iphoneos/libUIKit+PivotalCore-StaticLib.a"; sourceTree = "<group>"; };
+		42DF5EFB1A582FAB00E5D42A /* DumpstrInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DumpstrInterface.h; sourceTree = "<group>"; };
+		42DF5EFC1A582FAB00E5D42A /* DumpstrInterface.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DumpstrInterface.m; sourceTree = "<group>"; };
 		42EAE96B1A3F6CFC0036DBAE /* littr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = littr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42EAE96F1A3F6CFC0036DBAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		42EAE9701A3F6CFC0036DBAE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -59,6 +89,25 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		4201585C1A60A6B900FE3D85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4201587C1A60A74F00FE3D85 /* libCedar-StaticLib.a in Frameworks */,
+				420158671A60A6B900FE3D85 /* CoreGraphics.framework in Frameworks */,
+				420158691A60A6B900FE3D85 /* UIKit.framework in Frameworks */,
+				420158651A60A6B900FE3D85 /* XCTest.framework in Frameworks */,
+				4201586B1A60A6B900FE3D85 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4201585F1A60A6B900FE3D85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		42EAE9681A3F6CFC0036DBAE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -71,6 +120,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4201586C1A60A6B900FE3D85 /* littrModelSpecs */ = {
+			isa = PBXGroup;
+			children = (
+				4201587D1A60A76100FE3D85 /* Domain */,
+				4201586F1A60A6B900FE3D85 /* littrModelSpecs-Info.plist */,
+				420158731A60A6B900FE3D85 /* Rakefile */,
+				4201586D1A60A6B900FE3D85 /* Supporting Files */,
+			);
+			path = littrModelSpecs;
+			sourceTree = "<group>";
+		};
+		4201586D1A60A6B900FE3D85 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4201586E1A60A6B900FE3D85 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4201587D1A60A76100FE3D85 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				4201587E1A60A76600FE3D85 /* Interfaces */,
+			);
+			name = Domain;
+			sourceTree = "<group>";
+		};
+		4201587E1A60A76600FE3D85 /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				4201587F1A60A78E00FE3D85 /* DumpstrInterfaceSpec.mm */,
+			);
+			name = Interfaces;
+			sourceTree = "<group>";
+		};
 		42D740981A3F91F7007AB883 /* Machine */ = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +171,7 @@
 			children = (
 				42EAE96D1A3F6CFC0036DBAE /* App */,
 				42EAE9981A3F6E0D0036DBAE /* Externals */,
+				4201586C1A60A6B900FE3D85 /* littrModelSpecs */,
 				42EAE9991A3F6E1A0036DBAE /* Frameworks */,
 				42EAE99A1A3F6E3B0036DBAE /* Resources */,
 				42EAE96C1A3F6CFC0036DBAE /* Products */,
@@ -97,6 +182,7 @@
 			isa = PBXGroup;
 			children = (
 				42EAE96B1A3F6CFC0036DBAE /* littr.app */,
+				420158631A60A6B900FE3D85 /* littrModelSpecs.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -142,8 +228,13 @@
 		42EAE9991A3F6E1A0036DBAE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4201587B1A60A74F00FE3D85 /* libCedar-StaticLib.a */,
 				42D7413E1A3F9890007AB883 /* libFoundation+PivotalCore-StaticLib.a */,
 				42D7413F1A3F9890007AB883 /* libUIKit+PivotalCore-StaticLib.a */,
+				420158641A60A6B900FE3D85 /* XCTest.framework */,
+				420158661A60A6B900FE3D85 /* CoreGraphics.framework */,
+				420158681A60A6B900FE3D85 /* UIKit.framework */,
+				4201586A1A60A6B900FE3D85 /* Foundation.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -178,8 +269,11 @@
 		42EAE99D1A3F6F740036DBAE /* Interfaces */ = {
 			isa = PBXGroup;
 			children = (
+				42DF5EFB1A582FAB00E5D42A /* DumpstrInterface.h */,
+				42DF5EFC1A582FAB00E5D42A /* DumpstrInterface.m */,
 			);
 			name = Interfaces;
+			path = Domain/Interfaces;
 			sourceTree = "<group>";
 		};
 		42EAE99E1A3F6F900036DBAE /* Models */ = {
@@ -204,6 +298,28 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		420158621A60A6B900FE3D85 /* littrModelSpecs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4201587A1A60A6BA00FE3D85 /* Build configuration list for PBXNativeTarget "littrModelSpecs" */;
+			buildPhases = (
+				4201585B1A60A6B900FE3D85 /* Sources */,
+				4201585C1A60A6B900FE3D85 /* Frameworks */,
+				4201585D1A60A6B900FE3D85 /* Resources */,
+				4201585E1A60A6B900FE3D85 /* Sources */,
+				4201585F1A60A6B900FE3D85 /* Frameworks */,
+				420158601A60A6B900FE3D85 /* Resources */,
+				420158611A60A6B900FE3D85 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				420158771A60A6BA00FE3D85 /* PBXTargetDependency */,
+			);
+			name = littrModelSpecs;
+			productName = littrModelSpecs;
+			productReference = 420158631A60A6B900FE3D85 /* littrModelSpecs.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		42EAE96A1A3F6CFC0036DBAE /* littr */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 42EAE9911A3F6CFC0036DBAE /* Build configuration list for PBXNativeTarget "littr" */;
@@ -230,6 +346,10 @@
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = Nowhereville;
 				TargetAttributes = {
+					420158621A60A6B900FE3D85 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 42EAE96A1A3F6CFC0036DBAE;
+					};
 					42D740991A3F9280007AB883 = {
 						CreatedOnToolsVersion = 6.1.1;
 					};
@@ -253,11 +373,27 @@
 			targets = (
 				42EAE96A1A3F6CFC0036DBAE /* littr */,
 				42D740991A3F9280007AB883 /* mogenerator */,
+				420158621A60A6B900FE3D85 /* littrModelSpecs */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		4201585D1A60A6B900FE3D85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				420158701A60A6B900FE3D85 /* littrModelSpecs-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		420158601A60A6B900FE3D85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		42EAE9691A3F6CFC0036DBAE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -270,6 +406,19 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		420158611A60A6B900FE3D85 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n            \"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n            ";
+		};
 		42D7409D1A3F9287007AB883 /* Run Mogenerator */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -287,6 +436,21 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		4201585B1A60A6B900FE3D85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				420158801A60A78E00FE3D85 /* DumpstrInterfaceSpec.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4201585E1A60A6B900FE3D85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		42EAE9671A3F6CFC0036DBAE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -297,12 +461,21 @@
 				42D740951A3F91EA007AB883 /* _Tag.m in Sources */,
 				42D740971A3F91EA007AB883 /* Tag.m in Sources */,
 				42EAE9741A3F6CFC0036DBAE /* AppDelegate.m in Sources */,
+				42DF5EFD1A582FAB00E5D42A /* DumpstrInterface.m in Sources */,
 				42EAE97A1A3F6CFC0036DBAE /* ViewController.m in Sources */,
 				42EAE9711A3F6CFC0036DBAE /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		420158771A60A6BA00FE3D85 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42EAE96A1A3F6CFC0036DBAE /* littr */;
+			targetProxy = 420158761A60A6BA00FE3D85 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		42EAE9801A3F6CFC0036DBAE /* LaunchScreen.xib */ = {
@@ -316,6 +489,72 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		420158781A60A6BA00FE3D85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(PROJECT_DIR)/littrModelSpecs/Frameworks",
+				);
+				GCC_PREFIX_HEADER = "";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = littrModelSpecs/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Externals/cedar/build/Debug-iphoneos",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+					"-lstdc++",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/littr.app/littr";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		420158791A60A6BA00FE3D85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(PROJECT_DIR)/littrModelSpecs/Frameworks",
+				);
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = littrModelSpecs/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Externals/cedar/build/Debug-iphoneos",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+					"-lstdc++",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/littr.app/littr";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
 		42D7409B1A3F9280007AB883 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -449,6 +688,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		4201587A1A60A6BA00FE3D85 /* Build configuration list for PBXNativeTarget "littrModelSpecs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				420158781A60A6BA00FE3D85 /* Debug */,
+				420158791A60A6BA00FE3D85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		42D7409A1A3F9280007AB883 /* Build configuration list for PBXAggregateTarget "mogenerator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

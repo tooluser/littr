@@ -4,12 +4,12 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>littr.xcscheme</key>
+		<key>littr.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
-		<key>mogenerator.xcscheme</key>
+		<key>mogenerator.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>1</integer>
@@ -17,6 +17,11 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>420158621A60A6B900FE3D85</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>42D740991A3F9280007AB883</key>
 		<dict>
 			<key>primary</key>
